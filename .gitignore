@@ -1,0 +1,23 @@
+
+# AI / editor generated files
+cursor_readme_file_creation.md
+
+# dependencies
+node_modules/
+.npm-cache/
+
+# build output
+dist/
+
+# environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
