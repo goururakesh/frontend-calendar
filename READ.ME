@@ -1,0 +1,89 @@
+# 📅 Calendar Application – Frontend Lab Assignment
+
+## 📌 Project Overview
+This project is a Google Calendar–like frontend application developed as part of the
+Frontend Lab Assignment. The application provides a clean and user-friendly calendar
+interface that displays monthly views and scheduled events.
+
+The main objective of this project is to demonstrate frontend development skills using
+React, Tailwind CSS, and proper date handling.
+
+---
+
+## 🎯 Assignment Requirements Covered
+- Display the current month and year by default
+- Show a calendar grid with all dates
+- Navigate between previous and next months
+- Highlight the current date
+- Load events from a static JSON file
+- Display multiple events on the same date
+- Handle event conflicts using color coding
+
+---
+
+## 🛠️ Technologies Used
+- React (Create React App)
+- Tailwind CSS
+- JavaScript (ES6)
+- dayjs (date manipulation library)
+- HTML & CSS
+
+---
+
+## 📂 Project Structure
+calendar-app/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── components/
+│   │   ├── CalendarHeader.jsx   # Month & year display with navigation
+│   │   ├── CalendarGrid.jsx     # Calendar grid layout
+│   │   ├── DayCell.jsx          # Individual date cell
+│   │   └── EventItem.jsx        # Event display component
+│   │
+│   ├── data/
+│   │   └── events.json          # Static events data
+│   │
+│   ├── utils/
+│   │   └── dateUtils.js         # Date helper functions
+│   │
+│   ├── App.jsx                  # Main application component
+│   ├── index.js                 # Application entry point
+│   └── index.css                # Tailwind CSS styles
+│
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+├── README.md
+
+## ⚙️ Key Features Explained
+ 📆 Calendar View
+
+Displays current month and year by default
+
+Clean grid-based layout similar to Google Calendar
+
+Supports previous and next month navigation
+
+## 🎯 Date Highlighting
+
+Today’s date is highlighted for better user experience
+
+## 🗂 Event Management
+
+Events are loaded from a static JSON file
+
+Supports multiple events on the same date
+
+Conflict handling using color coding
+
+## 🎨 UI & Styling
+
+Built with Tailwind CSS
+
+Responsive design for desktop and mobile
+
+Minimal and modern UI
